@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+ /* start of the header  */
+header{
+    background-image: url(../imgs/hero_2.jpg);
+    background-repeat: no-repeat;
+    height:100vh; 
+    background-size: 100% 100%; 
+    padding-top: 40px;
+}
+ header nav{
+    background-color: white;
+    width: 80%;
+    text-align: center; 
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    z-index: 100;
+    margin-left: 10%;
+}
+.link a{ 
+    text-decoration: none;
+    color: black;
+    padding: 26.5px 15px;
+    transition: 1s;
+ }
+
+.link a:hover{
+    background-color:rgb(228, 80, 54);
+}
+h4 {
+    display: inline;
+    font-family: reverty;
+    font-size: 18px;
+    color: rgb(64, 173, 224);
+    padding-left: 20px;
+    font-size: 50px; 
+    padding-bottom: 10px;
+}
+.head{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    line-height: 80px;
+    margin-top: 160px;
+    font-family: sans-serif;
+    font-size: 25px; 
+}
+ .head button{
+    padding: 6px 50px;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px; 
+}
+.left{
+    background-color: rgb(64, 173, 224) ;
+}
+.right{
+    background-color:rgb(228, 80, 54);
+}
+ /* end of the header */
+
+ /* start of the first sec */
+.first{
+    background-color: rgb(64, 173, 224) ;
+    height: 300px;
+    font-size: 25px;
+    margin-top: -20px;
+    text-align: center;
+    padding-top:50px ;
+    color: white;
+    line-height:60px;
+}
+.work{
+    background-color: transparent;
+    border: 1px solid white;
+    padding:  10px 15px;
+    font-size: 20px;
+    color: white;
+}
+/* end of the first sec */
+
+/* start of the 2th sec */
+.sec{
+    display: flex;
+}
+.sec .basic{
+    background-image: url(../imgs/house3.jpg);
+    background-repeat: no-repeat;
+    width:53% ;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    height: 60vh;
+}
+i{
+    font-size: 30px;
+}
+ .sec .basic .red,
+ .black 
+ ,.blue {
+   
+    width: 100%;
+    height: 84.5%;
+    opacity: .8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+} 
+.red{
+    background-color:rgb(228, 80, 54); 
+}
+.black{
+    background-color:rgb(70, 69, 69);
+}
+.blue{
+    background-color: rgb(64, 173, 224) ;
+}
+/* end of the 2th sec */
+
+/* start of the 3th sec */
+.third{
+    text-align: center;
+    padding: 30px;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+} h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    /* margin-top: 40px;
+    margin-bottom: 20px; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 200;
+}
+.icons {
+    display: flex; 
+    justify-content: center;
+    height: 180px;
+    text-align: center;
+    margin-top: 50px;
+}
+.icons h6{
+    font-size: 20px;
+}
+i{
+    font-size: 35px;
+    padding: 5px;
+}
+ 
+.icons div{
+    background-color: rgb(240, 239, 239);
+    padding: 40px;
+    margin: 8px ;
+    transition: 1s;
+    width: 15%;
+
+}
+/* .icon .text:hover{
+    background-color:rgb(228, 80, 54);
+} */
+.text {
+    display: flex;
+    justify-content: center;
+    padding: 70px 130px;
+    margin-bottom: 50px;  
+    line-height: 25px;
+}
+
+.press{
+    padding: 15px 40px;
+    background-color: rgb(64, 173, 224) ;
+    border: none;
+    margin-top: 20px;
+}
+.img img{
+    width: 90%;
+    margin-left: 45px;
+}
+/* end of the 3th sec */
+/* start of the 4th sec */
+.fourth{
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+.four{
+    background-color: dimgray;
+    padding: 50px;
+}
+.slide{
+    display: flex;
+    padding: 50px 70px;
+}
+.slide div img{
+    width: 90%;
+}
+.bubles {
+    text-align: center;
+    margin-top: 30px;
+
+}
+.bub{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(95, 186, 223);
+    display: inline-block;
+   }
+   .bub:first-child{
+    background-color: rgb(12, 136, 185);
+   }
+/* end of the 4th sec */
